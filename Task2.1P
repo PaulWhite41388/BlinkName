@@ -1,0 +1,79 @@
+int led1 = D7; // Instead of writing D0 over and over again, we'll write led1
+
+// p = *--*
+// a = *-
+// u = **-
+// l = *-**
+
+void setup() {
+
+  pinMode(led1, OUTPUT);
+
+}
+
+
+void loop() {
+
+//HIGH turns led1 (D7) on, LOW turns it off
+//The number is the delay in milliseconds. ex: 500 = ,5 seconds, 1000 = 1 second, 1500 = 1.5 seconds.
+
+//p
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+
+//a
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1500);
+digitalWrite(led1, LOW);
+delay(1000);
+
+//u
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1500);
+digitalWrite(led1, LOW);
+delay(1000);
+
+//l
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(500);
+digitalWrite(led1, LOW);
+delay(1000);
+}
